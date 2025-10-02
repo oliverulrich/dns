@@ -8,6 +8,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(dns
         src/main.cpp
+        src/Logger.cpp
+        src/Logger.h
 )
 
 target_compile_options(dns PRIVATE -Wall -Wextra -Wpedantic -Werror)
