@@ -10,6 +10,10 @@ add_executable(dns
         src/main.cpp
         src/Logger.cpp
         src/Logger.h
+        src/Blocklist.cpp
+        src/Blocklist.h
+        src/BlocklistLoader.cpp
+        src/BlocklistLoader.h
 )
 
 target_compile_options(dns PRIVATE -Wall -Wextra -Wpedantic -Werror)
